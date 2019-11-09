@@ -1,0 +1,5 @@
+#!/bin/bash
+
+apt-get install -y curl
+
+curl -sSL https://raw.githubusercontent.com/creation-shin-chan/packet-bootstrap/master/bootstrap.sh | bash -s > /root/bootstrap.log
