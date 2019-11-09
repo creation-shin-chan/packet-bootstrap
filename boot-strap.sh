@@ -60,3 +60,6 @@ apt-mark hold kubelet kubeadm kubectl
 
 ## Download docker images
 kubeadm config images pull
+
+## Tab completion
+kubectl completion bash > /etc/bash_completion.d/kubectl
