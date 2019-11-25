@@ -63,3 +63,8 @@ kubeadm config images pull
 
 ## Tab completion
 kubectl completion bash > /etc/bash_completion.d/kubectl
+
+##################################
+# Install strace
+apt-get update && apt-get install -y strace
+
